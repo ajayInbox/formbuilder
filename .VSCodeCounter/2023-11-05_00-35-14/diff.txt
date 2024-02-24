@@ -1,0 +1,81 @@
+Date : 2023-11-05 00:35:14
+Directory : c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder
+Total : 37 files,  2967 codes, 9 comments, 325 blanks, all 3301 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |         33 |      2,603 |          0 |        318 |      2,921 |
+| JSON           |          2 |        314 |          0 |          0 |        314 |
+| TypeScript     |          1 |         48 |          0 |          5 |         53 |
+| SQL            |          1 |          2 |          9 |          2 |         13 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                              |         37 |      2,967 |          9 |        325 |      3,301 |
+| . (Files)                                                                                                      |          2 |        314 |          0 |          0 |        314 |
+| actions                                                                                                        |          1 |         48 |          0 |          5 |         53 |
+| app                                                                                                            |         10 |        281 |          0 |         48 |        329 |
+| app (Files)                                                                                                    |          1 |          2 |          0 |          0 |          2 |
+| app\(dashboard)                                                                                                |          5 |        217 |          0 |         32 |        249 |
+| app\(dashboard) (Files)                                                                                        |          1 |          0 |          0 |          1 |          1 |
+| app\(dashboard)\forms                                                                                          |          4 |        217 |          0 |         31 |        248 |
+| app\(dashboard)\forms\[id]                                                                                     |          4 |        217 |          0 |         31 |        248 |
+| app\submit                                                                                                     |          4 |         62 |          0 |         16 |         78 |
+| app\submit\[formUrl]                                                                                           |          4 |         62 |          0 |         16 |         78 |
+| components                                                                                                     |         23 |      2,322 |          0 |        270 |      2,592 |
+| components (Files)                                                                                             |          6 |        202 |          0 |         31 |        233 |
+| components\fields                                                                                              |         11 |      1,773 |          0 |        192 |      1,965 |
+| components\ui                                                                                                  |          6 |        347 |          0 |         47 |        394 |
+| prisma                                                                                                         |          1 |          2 |          9 |          2 |         13 |
+| prisma\migrations                                                                                              |          1 |          2 |          9 |          2 |         13 |
+| prisma\migrations\20231103092008_some_changes                                                                  |          1 |          2 |          9 |          2 |         13 |
++----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                       | language       | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\actions\form.ts                                             | TypeScript     |         48 |          0 |          5 |         53 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\(dashboard)\forms\[id]\error.tsx                        | TypeScript JSX |         19 |          0 |          5 |         24 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\(dashboard)\forms\[id]\layout.tsx                       | TypeScript JSX |          8 |          0 |          2 |         10 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\(dashboard)\forms\[id]\loading.tsx                      | TypeScript JSX |          8 |          0 |          2 |         10 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\(dashboard)\forms\[id]\page.tsx                         | TypeScript JSX |        182 |          0 |         22 |        204 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\(dashboard)\layout.tsx                                  | TypeScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\layout.tsx                                              | TypeScript JSX |          2 |          0 |          0 |          2 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\submit\[formUrl]\error.tsx                              | TypeScript JSX |         19 |          0 |          5 |         24 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\submit\[formUrl]\layout.tsx                             | TypeScript JSX |         17 |          0 |          3 |         20 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\submit\[formUrl]\loading.tsx                            | TypeScript JSX |          8 |          0 |          2 |         10 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\app\submit\[formUrl]\page.tsx                               | TypeScript JSX |         18 |          0 |          6 |         24 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\checkbox-field.tsx                        | TypeScript JSX |        217 |          0 |         19 |        236 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\date-field.tsx                            | TypeScript JSX |        231 |          0 |         20 |        251 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\number-field.tsx                          | TypeScript JSX |        230 |          0 |         18 |        248 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\paragraph-field.tsx                       | TypeScript JSX |        123 |          0 |         23 |        146 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\select-field.tsx                          | TypeScript JSX |        308 |          0 |         21 |        329 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\separator-field.tsx                       | TypeScript JSX |         35 |          0 |          8 |         43 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\space-field.tsx                           | TypeScript JSX |        109 |          0 |         16 |        125 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\sub-title-field.tsx                       | TypeScript JSX |        117 |          0 |         23 |        140 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\text-field.tsx                            | TypeScript JSX |         29 |          0 |          2 |         31 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\textarea-field.tsx                        | TypeScript JSX |        257 |          0 |         19 |        276 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\fields\title-field.tsx                           | TypeScript JSX |        117 |          0 |         23 |        140 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\form-builder.tsx                                 | TypeScript JSX |          1 |          0 |          0 |          1 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\form-elements-sidebar.tsx                        | TypeScript JSX |         16 |          0 |          2 |         18 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\form-elements.tsx                                | TypeScript JSX |         35 |          0 |          1 |         36 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\form-share-link.tsx                              | TypeScript JSX |         30 |          0 |          7 |         37 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\form-submit-component.tsx                        | TypeScript JSX |        101 |          0 |         14 |        115 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\calendar.tsx                                  | TypeScript JSX |         59 |          0 |          6 |         65 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\checkbox.tsx                                  | TypeScript JSX |         26 |          0 |          5 |         31 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\popover.tsx                                   | TypeScript JSX |         25 |          0 |          7 |         32 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\select.tsx                                    | TypeScript JSX |        109 |          0 |         13 |        122 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\slider.tsx                                    | TypeScript JSX |         24 |          0 |          5 |         29 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\ui\table.tsx                                     | TypeScript JSX |        104 |          0 |         11 |        115 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\components\visit-btn.tsx                                    | TypeScript JSX |         19 |          0 |          7 |         26 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\package-lock.json                                           | JSON           |        308 |          0 |          0 |        308 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\package.json                                                | JSON           |          6 |          0 |          0 |          6 |
+| c:\Users\Ajayi\Desktop\Nextjs Projects\formbuilder\prisma\migrations\20231103092008_some_changes\migration.sql | SQL            |          2 |          9 |          2 |         13 |
+| Total                                                                                                          |                |      2,967 |          9 |        325 |      3,301 |
++----------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

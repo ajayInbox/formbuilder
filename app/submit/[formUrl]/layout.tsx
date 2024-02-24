@@ -1,0 +1,20 @@
+import Logo from '@/components/Logo'
+import ThemeSwitcher from '@/components/ThemeSwitcher'
+import React, {ReactNode} from 'react'
+
+
+const layout = ({children}:{children:ReactNode}) => {
+  return (
+    <div className='flex flex-col min-h-screen min-w-full bg-background max-h-screen h-screen'>
+        <nav className='flex items-center justify-between border-b border-border h-[60px] px-3 py-2'>
+            <Logo/>
+                <ThemeSwitcher/>
+        </nav>
+        <main className='flex w-full flex-grow'>
+            {children}
+        </main>
+    </div>
+  )
+}
+
+export default layout
